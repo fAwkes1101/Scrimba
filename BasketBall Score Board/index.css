@@ -1,0 +1,51 @@
+body {
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    background-color: #065F46;
+    color: #E5E7EB;
+    font-family: Verdana;
+    font-style: bold;
+
+}
+h3{
+    display: flex;
+    justify-content: center
+}
+
+.score-card{
+    background-color: #34D399;
+    width: 155px;
+    height: 120px;
+    left: 82px;
+    top: 125px;
+    margin-bottom: 26px;
+}
+
+.count-cont{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.count{
+    border: 1.5px solid;
+    border-radius: 4px;
+    font-family: Cursed Timer ULiL;
+    font-size: 15px;
+    font-weight: 200;
+    line-height: 20.5px;
+    padding: 2.5px;
+    text-align: center;
+    cursor: pointer;
+
+}
+
+.count:hover{
+    background-color: #34D399;
+    color: black;
+}
