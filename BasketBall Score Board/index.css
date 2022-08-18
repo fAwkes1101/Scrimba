@@ -23,6 +23,12 @@ h3{
     left: 82px;
     top: 125px;
     margin-bottom: 26px;
+    font-family: Cursed Timer ULiL;
+    font-size: 90px;
+    font-weight: 400;
+    line-height: 127px;
+    text-align: center;
+   border-radius: 5px;
 }
 
 .count-cont{

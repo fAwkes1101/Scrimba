@@ -1,27 +1,29 @@
 <html>
-    <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+    <head>
         <link rel="stylesheet" href="index.css">
     </head>
     <body>
         <div class="container">
+            <div id="timer">00</div>
             <div>
                 <h3>HOME</h3>
-                <div class= "score-card"></div>
-                <div class= "count-cont">
-                     <div class="count">+ 1</div>
-                     <div class="count">+ 2</div>
-                     <div class="count">+ 3</div>
+                <div class= "score-card home">00</div>
+                 <div class= "count-cont">
+                     <div onclick="hanndleOneClick(1)" class="count">+ 1</div>
+                     <div onclick="hanndleTwoClick(1)" class="count">+ 2</div>
+                     <div onclick="hanndleThreeClick(1)" class="count">+ 3</div>
                 </div>
             </div>
             <div>
                 <h3>GUEST</h3>
-                <div class="score-card"></div>
+                <div class="score-card guest">00</div>
                 <div class= "count-cont">
-                     <div class="count">+ 1</div>
-                     <div class="count">+ 2</div>
-                     <div class="count">+ 3</div>
+                     <div onclick="hanndleOneClick(2)" class="count">+ 1</div>
+                     <div onclick="hanndleTwoClick(2)" class="count">+ 2</div>
+                     <div onclick="hanndleThreeClick(2)" class="count">+ 3</div>
                 </div>
             </div>
+            <div onclick="handleTimer()">Start</div>
         </div>
         <script src="index.js"></script>
     </body>
