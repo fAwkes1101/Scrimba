@@ -1,0 +1,85 @@
+body {
+    margin: 0;
+}
+
+span{
+ color: #5DEF92;
+}
+.content{
+    margin-left: 52px; 
+}
+
+h1{
+    margin-bottom: 0px;
+    
+    font-family: Karla;
+font-size: 40px;
+font-weight: 800;
+line-height: 40px;
+letter-spacing: -0.05em;
+text-align: left;
+
+
+}
+.para{
+margin-top: 10px;
+margin-bottom: 60px; 
+
+font-family: Inter;
+font-size: 20px;
+font-weight: 400;
+line-height: 28px;
+letter-spacing: 0em;
+text-align: left;
+
+}
+
+.generate{
+    background: #10B981;
+    border-radius: 3px;
+    border: none;
+    color: #FFFFFF;
+    margin-bottom: 74px; 
+    cursor: pointer;
+  
+font-family: Inter;
+font-size: 16px;
+font-weight: 500;
+line-height: 24px;
+letter-spacing: 0em;
+text-align: left;
+
+    
+}
+
+
+
+.passwards{
+    display: flex;
+    
+}
+.pass{
+    background: #273549;
+    color: #5DEF92;
+    border-radius: 3px;
+    border: none;
+    cursor: pointer;
+    padding: 1.5px;
+    margin-top: 0px;
+    
+   font-family: Inter;
+font-size: 16px;
+font-weight: 500;
+line-height: 24px;
+text-align: center;
+
+
+
+}
+
+.pass1{
+    margin-right: 50px;
+}
+.pass2{
+    
+}
