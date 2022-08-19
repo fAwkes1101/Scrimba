@@ -2,5 +2,22 @@ const characters = ["A","B","C","D","E","F","G","H","I","J","K","L","M","N","O"
 "/"];
 
 
+let generate =document.querySelector(".generate");
+let pass1  = document.querySelector(".pass1");
+let pass2  = document.querySelector(".pass2");
 
+generate.addEventListener('click', function(){
+    let passLen = prompt("Passward Length")
+    
+    let pass1Str = ""    
+    let pass2Str = ""  
+    for(let i=0; i<passLen; i++){
+        let random1 = Math.floor(Math.random()*characters.length)
+        let random2 = Math.floor(Math.random()*characters.length)
+        pass1Str += characters[random1]
+        pass2Str += characters[random2]
+    }
+    pass1.textContent = pass1Str
+    pass2.textContent = pass2Str
+})
 
