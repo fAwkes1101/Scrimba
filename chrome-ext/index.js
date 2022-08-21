@@ -3,6 +3,14 @@ const inputEl = document.getElementById("input-el")
 const inputBtn = document.getElementById("input-btn")
 const ulEl = document.getElementById("ul-el")
 
+// localStorage.setItem("myName", "Per Harald Borgen")
+
+let name = localStorage.getItem("myName")
+console.log(name)
+
+// localStorage.clear()
+
+
 inputBtn.addEventListener("click", function() {
     myLeads.push(inputEl.value)
     inputEl.value = ""
