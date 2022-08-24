@@ -1,0 +1,28 @@
+body {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.input-cont{
+     width: 550px;
+    height: 285px;
+    display: flex;
+    align-items: center;
+
+    flex-direction: column;
+    background: #6943FF;
+}
+
+input{
+    width: 117px;
+    height: 83px;
+    display: flex;
+    align-self: center;
+    
+     margin-bottom: 25px; 
+}
+
+button{
+    width: 117px;
+    height: 42px;
+}
