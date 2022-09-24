@@ -1,0 +1,54 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+#navbar{
+    display: flex;
+    justify-content: space-between;
+    padding: 8px;
+}
+
+#input-color{
+    border: none;
+    height: 43px;
+    width: 51px;
+    padding: 0px;
+    border: 1px solid wheat;
+}
+
+#scheme{
+    height: 42px;
+    width: 312px;
+    left: 87px;
+    top: 23px;
+    border-radius: 6px;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: left;
+
+}
+
+#get-scheme{
+    font-family: Inter;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 16px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+
+#color-cont{
+    display: flex;   
+}
+div{
+    width: 100px;
+    height: 300px;
+}
+footer{
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+}
